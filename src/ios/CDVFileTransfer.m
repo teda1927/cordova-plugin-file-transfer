@@ -569,7 +569,7 @@ static CFIndex WriteDataToStream(NSData* data, CFWriteStreamRef stream)
 
     [fileMgr removeItemAtPath:self.target error:nil];
 }
-
+ 
 - (void)cancelTransfer:(NSURLConnection*)connection
 {
     [connection cancel];
